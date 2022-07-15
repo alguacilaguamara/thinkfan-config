@@ -6,5 +6,7 @@ sudo touch /etc/thinkfan.conf
 
 sudo cp ./thinkfan.conf /etc/thinkfan.conf
 
+echo 'THINKFAN_ARGS="-c /etc/thinkfan.conf"' | sudo tee -a /etc/default/thinkfan
+
 sudo systemctl enable thinkfan
 sudo systemctl start thinkfan
