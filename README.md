@@ -1,5 +1,5 @@
 # thinkfan-config
-Manage your thinkpad fan speed
+Manage your thinkpad fan speed in Ubuntu 22.04
 
 # How to use
 ```
