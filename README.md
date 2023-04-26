@@ -9,13 +9,13 @@ $ sudo ./fan-speed-thinkpad-config.sh
 ```
 
 If you have problems related to the thinkfan service, try to:
-'''
+```
 echo "options thinkpad_acpi fan_control=1 experimental=1" | sudo tee /etc/modprobe.d/thinkfan.conf
 sudo modprobe -rv thinkpad_acpi
 sudo modprobe -v thinkpad_acpi
-'''
+```
 And then restart the service
 
-'''
+```
 systemctl restart thinkfan
-'''
+```
